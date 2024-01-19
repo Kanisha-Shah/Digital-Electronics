@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3">
+    <tool name="Adder">
+      <a name="width" val="1"/>
+    </tool>
+  </lib>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(430,500)" to="(490,500)"/>
+    <wire from="(130,200)" to="(130,270)"/>
+    <wire from="(130,130)" to="(180,130)"/>
+    <wire from="(660,490)" to="(720,490)"/>
+    <wire from="(90,410)" to="(140,410)"/>
+    <wire from="(740,410)" to="(800,410)"/>
+    <wire from="(950,140)" to="(950,230)"/>
+    <wire from="(140,500)" to="(140,520)"/>
+    <wire from="(140,270)" to="(180,270)"/>
+    <wire from="(430,640)" to="(470,640)"/>
+    <wire from="(530,510)" to="(700,510)"/>
+    <wire from="(90,110)" to="(120,110)"/>
+    <wire from="(230,560)" to="(320,560)"/>
+    <wire from="(310,690)" to="(340,690)"/>
+    <wire from="(320,670)" to="(340,670)"/>
+    <wire from="(160,230)" to="(180,230)"/>
+    <wire from="(380,400)" to="(380,570)"/>
+    <wire from="(630,360)" to="(720,360)"/>
+    <wire from="(100,160)" to="(180,160)"/>
+    <wire from="(230,250)" to="(500,250)"/>
+    <wire from="(230,180)" to="(630,180)"/>
+    <wire from="(760,370)" to="(1280,370)"/>
+    <wire from="(110,620)" to="(180,620)"/>
+    <wire from="(110,380)" to="(180,380)"/>
+    <wire from="(90,690)" to="(90,750)"/>
+    <wire from="(130,130)" to="(130,200)"/>
+    <wire from="(510,560)" to="(560,560)"/>
+    <wire from="(230,110)" to="(670,110)"/>
+    <wire from="(130,420)" to="(180,420)"/>
+    <wire from="(130,340)" to="(180,340)"/>
+    <wire from="(670,110)" to="(670,180)"/>
+    <wire from="(800,130)" to="(800,410)"/>
+    <wire from="(120,90)" to="(120,110)"/>
+    <wire from="(660,470)" to="(660,490)"/>
+    <wire from="(90,660)" to="(90,690)"/>
+    <wire from="(740,390)" to="(740,410)"/>
+    <wire from="(720,210)" to="(720,230)"/>
+    <wire from="(560,200)" to="(560,560)"/>
+    <wire from="(720,130)" to="(720,170)"/>
+    <wire from="(740,310)" to="(740,350)"/>
+    <wire from="(380,570)" to="(410,570)"/>
+    <wire from="(620,460)" to="(640,460)"/>
+    <wire from="(740,190)" to="(1270,190)"/>
+    <wire from="(700,380)" to="(720,380)"/>
+    <wire from="(90,750)" to="(180,750)"/>
+    <wire from="(670,180)" to="(700,180)"/>
+    <wire from="(230,400)" to="(380,400)"/>
+    <wire from="(320,560)" to="(320,670)"/>
+    <wire from="(360,480)" to="(360,590)"/>
+    <wire from="(430,600)" to="(430,640)"/>
+    <wire from="(120,300)" to="(120,540)"/>
+    <wire from="(620,460)" to="(620,580)"/>
+    <wire from="(390,540)" to="(390,720)"/>
+    <wire from="(500,440)" to="(640,440)"/>
+    <wire from="(100,230)" to="(110,230)"/>
+    <wire from="(310,640)" to="(310,690)"/>
+    <wire from="(500,250)" to="(500,440)"/>
+    <wire from="(380,680)" to="(1280,680)"/>
+    <wire from="(230,320)" to="(430,320)"/>
+    <wire from="(630,180)" to="(630,360)"/>
+    <wire from="(120,110)" to="(120,300)"/>
+    <wire from="(690,310)" to="(740,310)"/>
+    <wire from="(120,90)" to="(180,90)"/>
+    <wire from="(700,380)" to="(700,510)"/>
+    <wire from="(950,140)" to="(1270,140)"/>
+    <wire from="(360,700)" to="(360,720)"/>
+    <wire from="(720,230)" to="(950,230)"/>
+    <wire from="(130,340)" to="(130,420)"/>
+    <wire from="(110,230)" to="(110,380)"/>
+    <wire from="(510,530)" to="(510,560)"/>
+    <wire from="(720,410)" to="(720,490)"/>
+    <wire from="(390,540)" to="(430,540)"/>
+    <wire from="(230,730)" to="(1280,730)"/>
+    <wire from="(1130,450)" to="(1130,630)"/>
+    <wire from="(130,420)" to="(130,520)"/>
+    <wire from="(360,720)" to="(390,720)"/>
+    <wire from="(690,410)" to="(720,410)"/>
+    <wire from="(140,520)" to="(140,560)"/>
+    <wire from="(470,520)" to="(490,520)"/>
+    <wire from="(100,350)" to="(100,460)"/>
+    <wire from="(100,460)" to="(180,460)"/>
+    <wire from="(110,380)" to="(110,620)"/>
+    <wire from="(130,270)" to="(140,270)"/>
+    <wire from="(680,450)" to="(1130,450)"/>
+    <wire from="(90,350)" to="(100,350)"/>
+    <wire from="(90,230)" to="(100,230)"/>
+    <wire from="(1130,630)" to="(1280,630)"/>
+    <wire from="(470,520)" to="(470,640)"/>
+    <wire from="(120,300)" to="(180,300)"/>
+    <wire from="(100,240)" to="(160,240)"/>
+    <wire from="(120,660)" to="(180,660)"/>
+    <wire from="(120,540)" to="(180,540)"/>
+    <wire from="(120,580)" to="(180,580)"/>
+    <wire from="(100,160)" to="(100,230)"/>
+    <wire from="(160,230)" to="(160,240)"/>
+    <wire from="(360,590)" to="(410,590)"/>
+    <wire from="(130,200)" to="(180,200)"/>
+    <wire from="(140,270)" to="(140,410)"/>
+    <wire from="(90,560)" to="(140,560)"/>
+    <wire from="(450,580)" to="(620,580)"/>
+    <wire from="(120,580)" to="(120,660)"/>
+    <wire from="(430,540)" to="(430,560)"/>
+    <wire from="(140,500)" to="(180,500)"/>
+    <wire from="(90,660)" to="(120,660)"/>
+    <wire from="(690,310)" to="(690,410)"/>
+    <wire from="(100,240)" to="(100,350)"/>
+    <wire from="(100,710)" to="(180,710)"/>
+    <wire from="(430,320)" to="(430,500)"/>
+    <wire from="(230,640)" to="(310,640)"/>
+    <wire from="(130,520)" to="(140,520)"/>
+    <wire from="(720,130)" to="(800,130)"/>
+    <wire from="(100,460)" to="(100,710)"/>
+    <wire from="(560,200)" to="(700,200)"/>
+    <wire from="(230,480)" to="(360,480)"/>
+    <comp lib="6" loc="(1319,379)" name="Text">
+      <a name="text" val="Z3"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(230,180)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(821,445)" name="Text">
+      <a name="text" val="HALF ADDER"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(278,104)" name="Text">
+      <a name="text" val="(A2.B2)"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(230,640)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(269,758)" name="Text">
+      <a name="text" val="(A0.B0)"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="0" loc="(90,230)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(1311,199)" name="Text">
+      <a name="text" val="Z4"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="3" loc="(740,190)" name="Adder">
+      <a name="width" val="1"/>
+    </comp>
+    <comp lib="6" loc="(731,298)" name="Text">
+      <a name="text" val="FULL ADDER"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(39,427)" name="Text">
+      <a name="text" val="B2"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="0" loc="(90,560)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(43,238)" name="Text">
+      <a name="text" val="A1"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="0" loc="(90,410)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="3" loc="(680,450)" name="Adder">
+      <a name="width" val="1"/>
+    </comp>
+    <comp lib="3" loc="(450,580)" name="Adder">
+      <a name="width" val="1"/>
+    </comp>
+    <comp lib="6" loc="(39,117)" name="Text">
+      <a name="text" val="A2"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="0" loc="(1280,680)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(230,730)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(543,611)" name="Text">
+      <a name="text" val="FULL ADDER"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(501,475)" name="Text">
+      <a name="text" val="HALF ADDER"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(278,237)" name="Text">
+      <a name="text" val="(A0.B2)"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="0" loc="(90,690)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(276,386)" name="Text">
+      <a name="text" val="(A1.B1)"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="0" loc="(90,110)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(1321,685)" name="Text">
+      <a name="text" val="Z1"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(276,172)" name="Text">
+      <a name="text" val="(A1.B2)"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(39,354)" name="Text">
+      <a name="text" val="A0"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(546,549)" name="Text">
+      <a name="text" val="S4"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(283,304)" name="Text">
+      <a name="text" val="(A2.B1)"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(44,695)" name="Text">
+      <a name="text" val="B0"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(1326,737)" name="Text">
+      <a name="text" val="Z0"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(272,473)" name="Text">
+      <a name="text" val="(A2.B0)"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(273,551)" name="Text">
+      <a name="text" val="(A0.B1)"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(230,250)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1280,730)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="3" loc="(380,680)" name="Adder">
+      <a name="width" val="1"/>
+    </comp>
+    <comp lib="3" loc="(530,510)" name="Adder">
+      <a name="width" val="1"/>
+    </comp>
+    <comp lib="6" loc="(473,714)" name="Text">
+      <a name="text" val="HALF ADDER"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(590,572)" name="Text">
+      <a name="text" val="S2"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(608,50)" name="Text">
+      <a name="text" val="3 BIT MULTIPLIER"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 36"/>
+    </comp>
+    <comp lib="6" loc="(43,569)" name="Text">
+      <a name="text" val="B1"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(230,560)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(824,175)" name="Text">
+      <a name="text" val="FULL ADDER"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(1311,149)" name="Text">
+      <a name="text" val="Z5"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="0" loc="(1280,370)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(90,350)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(230,110)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1270,190)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(267,629)" name="Text">
+      <a name="text" val="(A1.B0)"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(230,480)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(230,400)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(1320,635)" name="Text">
+      <a name="text" val="Z2"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="0" loc="(1270,140)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(591,500)" name="Text">
+      <a name="text" val="S3"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="0" loc="(1280,630)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="3" loc="(760,370)" name="Adder">
+      <a name="width" val="1"/>
+    </comp>
+    <comp lib="1" loc="(230,320)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+  </circuit>
+</project>

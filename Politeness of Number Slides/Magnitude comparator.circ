@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(810,250)" to="(860,250)"/>
+    <wire from="(600,650)" to="(780,650)"/>
+    <wire from="(910,260)" to="(1160,260)"/>
+    <wire from="(380,350)" to="(560,350)"/>
+    <wire from="(140,390)" to="(510,390)"/>
+    <wire from="(370,330)" to="(370,340)"/>
+    <wire from="(410,520)" to="(520,520)"/>
+    <wire from="(830,520)" to="(870,520)"/>
+    <wire from="(360,70)" to="(360,150)"/>
+    <wire from="(130,170)" to="(130,190)"/>
+    <wire from="(210,530)" to="(210,550)"/>
+    <wire from="(330,380)" to="(560,380)"/>
+    <wire from="(560,450)" to="(840,450)"/>
+    <wire from="(420,130)" to="(420,230)"/>
+    <wire from="(350,440)" to="(440,440)"/>
+    <wire from="(380,100)" to="(860,100)"/>
+    <wire from="(330,150)" to="(360,150)"/>
+    <wire from="(780,550)" to="(870,550)"/>
+    <wire from="(470,580)" to="(490,580)"/>
+    <wire from="(370,290)" to="(370,330)"/>
+    <wire from="(160,310)" to="(180,310)"/>
+    <wire from="(150,540)" to="(170,540)"/>
+    <wire from="(110,180)" to="(110,290)"/>
+    <wire from="(440,320)" to="(450,320)"/>
+    <wire from="(480,320)" to="(490,320)"/>
+    <wire from="(150,170)" to="(230,170)"/>
+    <wire from="(420,510)" to="(560,510)"/>
+    <wire from="(440,440)" to="(440,490)"/>
+    <wire from="(410,310)" to="(490,310)"/>
+    <wire from="(190,370)" to="(190,550)"/>
+    <wire from="(170,350)" to="(170,540)"/>
+    <wire from="(220,240)" to="(350,240)"/>
+    <wire from="(160,160)" to="(160,220)"/>
+    <wire from="(140,460)" to="(140,520)"/>
+    <wire from="(350,310)" to="(410,310)"/>
+    <wire from="(370,340)" to="(560,340)"/>
+    <wire from="(380,200)" to="(560,200)"/>
+    <wire from="(220,350)" to="(220,360)"/>
+    <wire from="(360,70)" to="(860,70)"/>
+    <wire from="(180,310)" to="(180,580)"/>
+    <wire from="(180,310)" to="(230,310)"/>
+    <wire from="(810,220)" to="(810,250)"/>
+    <wire from="(370,90)" to="(860,90)"/>
+    <wire from="(410,310)" to="(410,520)"/>
+    <wire from="(440,320)" to="(440,400)"/>
+    <wire from="(770,540)" to="(870,540)"/>
+    <wire from="(130,550)" to="(170,550)"/>
+    <wire from="(150,400)" to="(440,400)"/>
+    <wire from="(530,170)" to="(830,170)"/>
+    <wire from="(920,530)" to="(1160,530)"/>
+    <wire from="(130,160)" to="(160,160)"/>
+    <wire from="(420,240)" to="(510,240)"/>
+    <wire from="(380,100)" to="(380,200)"/>
+    <wire from="(330,150)" to="(330,380)"/>
+    <wire from="(770,540)" to="(770,580)"/>
+    <wire from="(140,80)" to="(230,80)"/>
+    <wire from="(130,150)" to="(220,150)"/>
+    <wire from="(400,150)" to="(430,150)"/>
+    <wire from="(150,170)" to="(150,400)"/>
+    <wire from="(130,100)" to="(130,140)"/>
+    <wire from="(520,630)" to="(550,630)"/>
+    <wire from="(610,360)" to="(830,360)"/>
+    <wire from="(130,530)" to="(150,530)"/>
+    <wire from="(840,510)" to="(870,510)"/>
+    <wire from="(150,600)" to="(490,600)"/>
+    <wire from="(210,530)" to="(230,530)"/>
+    <wire from="(190,550)" to="(210,550)"/>
+    <wire from="(420,230)" to="(430,230)"/>
+    <wire from="(150,480)" to="(150,530)"/>
+    <wire from="(840,450)" to="(840,510)"/>
+    <wire from="(610,220)" to="(810,220)"/>
+    <wire from="(500,430)" to="(510,430)"/>
+    <wire from="(380,510)" to="(380,560)"/>
+    <wire from="(220,350)" to="(230,350)"/>
+    <wire from="(500,430)" to="(500,480)"/>
+    <wire from="(130,490)" to="(200,490)"/>
+    <wire from="(440,440)" to="(510,440)"/>
+    <wire from="(550,520)" to="(560,520)"/>
+    <wire from="(180,580)" to="(440,580)"/>
+    <wire from="(810,270)" to="(860,270)"/>
+    <wire from="(350,240)" to="(350,310)"/>
+    <wire from="(330,380)" to="(330,450)"/>
+    <wire from="(430,230)" to="(430,360)"/>
+    <wire from="(140,390)" to="(140,460)"/>
+    <wire from="(170,670)" to="(550,670)"/>
+    <wire from="(910,80)" to="(1160,80)"/>
+    <wire from="(170,350)" to="(220,350)"/>
+    <wire from="(370,290)" to="(490,290)"/>
+    <wire from="(810,270)" to="(810,300)"/>
+    <wire from="(150,400)" to="(150,480)"/>
+    <wire from="(510,370)" to="(510,390)"/>
+    <wire from="(380,350)" to="(380,430)"/>
+    <wire from="(380,430)" to="(380,510)"/>
+    <wire from="(420,480)" to="(420,510)"/>
+    <wire from="(220,150)" to="(220,240)"/>
+    <wire from="(400,150)" to="(400,370)"/>
+    <wire from="(830,280)" to="(830,360)"/>
+    <wire from="(430,470)" to="(460,470)"/>
+    <wire from="(430,360)" to="(430,470)"/>
+    <wire from="(780,550)" to="(780,650)"/>
+    <wire from="(460,150)" to="(480,150)"/>
+    <wire from="(130,190)" to="(130,490)"/>
+    <wire from="(130,540)" to="(150,540)"/>
+    <wire from="(510,370)" to="(520,370)"/>
+    <wire from="(140,80)" to="(140,390)"/>
+    <wire from="(540,300)" to="(810,300)"/>
+    <wire from="(220,360)" to="(420,360)"/>
+    <wire from="(550,370)" to="(560,370)"/>
+    <wire from="(380,280)" to="(380,350)"/>
+    <wire from="(500,480)" to="(560,480)"/>
+    <wire from="(330,450)" to="(510,450)"/>
+    <wire from="(830,170)" to="(830,240)"/>
+    <wire from="(300,330)" to="(350,330)"/>
+    <wire from="(140,460)" to="(510,460)"/>
+    <wire from="(370,90)" to="(370,290)"/>
+    <wire from="(380,430)" to="(500,430)"/>
+    <wire from="(440,490)" to="(560,490)"/>
+    <wire from="(200,490)" to="(200,630)"/>
+    <wire from="(60,410)" to="(110,410)"/>
+    <wire from="(60,290)" to="(110,290)"/>
+    <wire from="(540,580)" to="(770,580)"/>
+    <wire from="(380,560)" to="(490,560)"/>
+    <wire from="(300,60)" to="(860,60)"/>
+    <wire from="(380,200)" to="(380,280)"/>
+    <wire from="(220,130)" to="(220,150)"/>
+    <wire from="(380,280)" to="(490,280)"/>
+    <wire from="(160,220)" to="(160,310)"/>
+    <wire from="(830,500)" to="(830,520)"/>
+    <wire from="(350,100)" to="(350,130)"/>
+    <wire from="(200,630)" to="(490,630)"/>
+    <wire from="(130,40)" to="(230,40)"/>
+    <wire from="(130,190)" to="(480,190)"/>
+    <wire from="(200,490)" to="(230,490)"/>
+    <wire from="(540,240)" to="(560,240)"/>
+    <wire from="(110,410)" to="(110,510)"/>
+    <wire from="(300,150)" to="(330,150)"/>
+    <wire from="(130,100)" to="(350,100)"/>
+    <wire from="(350,330)" to="(370,330)"/>
+    <wire from="(350,330)" to="(350,440)"/>
+    <wire from="(490,470)" to="(510,470)"/>
+    <wire from="(190,370)" to="(400,370)"/>
+    <wire from="(610,500)" to="(830,500)"/>
+    <wire from="(830,240)" to="(860,240)"/>
+    <wire from="(830,280)" to="(860,280)"/>
+    <wire from="(170,550)" to="(190,550)"/>
+    <wire from="(150,480)" to="(420,480)"/>
+    <wire from="(160,220)" to="(560,220)"/>
+    <wire from="(130,520)" to="(140,520)"/>
+    <wire from="(300,510)" to="(380,510)"/>
+    <wire from="(220,130)" to="(230,130)"/>
+    <wire from="(430,360)" to="(560,360)"/>
+    <wire from="(170,550)" to="(170,670)"/>
+    <wire from="(130,40)" to="(130,100)"/>
+    <wire from="(420,240)" to="(420,360)"/>
+    <wire from="(150,540)" to="(150,600)"/>
+    <wire from="(350,130)" to="(420,130)"/>
+    <comp lib="6" loc="(512,902)" name="Text">
+      <a name="text" val="1. Here, for First Case where both inputs are equal we have to check each an every bit"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 26"/>
+    </comp>
+    <comp lib="6" loc="(565,164)" name="Text">
+      <a name="text" val="A3.B3'"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="0" loc="(110,180)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="1" loc="(300,150)" name="XNOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(493,758)" name="Text">
+      <a name="text" val="4-BIT COMPARATOR"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 48"/>
+    </comp>
+    <comp lib="6" loc="(261,299)" name="Text">
+      <a name="text" val="A2 XNOR B2"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(610,220)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(60,410)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(1160,80)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(935,249)" name="Text">
+      <a name="text" val="A&gt;B"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(260,25)" name="Text">
+      <a name="text" val="A0 XNOR B0"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(540,300)" name="AND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="6" loc="(648,437)" name="Text">
+      <a name="text" val="E3.E2.E1.A0'.B0"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(417,1024)" name="Text">
+      <a name="text" val="Thus initially checking for MSB and then the next bits onwards."/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 26"/>
+    </comp>
+    <comp lib="1" loc="(920,530)" name="OR Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="0" loc="(1160,530)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(505,1467)" name="Text">
+      <a name="text" val="DFH"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(300,510)" name="XNOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(60,290)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(364,1118)" name="Text">
+      <a name="text" val="When one of it goes true, it won't check the next one."/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 26"/>
+    </comp>
+    <comp lib="1" loc="(910,260)" name="OR Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="6" loc="(86,193)" name="Text">
+      <a name="text" val="A2"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(86,512)" name="Text">
+      <a name="text" val="B0"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(683,491)" name="Text">
+      <a name="text" val="E3.E2.A1'.B1"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(600,570)" name="Text">
+      <a name="text" val="E3.A2'.B2"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(520,630)" name="NOT Gate"/>
+    <comp lib="6" loc="(645,637)" name="Text">
+      <a name="text" val="A3'.B3"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(550,520)" name="NOT Gate"/>
+    <comp lib="1" loc="(600,650)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(498,938)" name="Text">
+      <a name="text" val="Hence we have used XNOR Gate which gives o/p '1' when both bits are equal."/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 26"/>
+    </comp>
+    <comp lib="6" loc="(817,1082)" name="Text">
+      <a name="text" val="3. Thirdly, for 'A&lt;B'  we are going in ascending fashion same as above and similarly we have taken into consideration all possible outcomes"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 26"/>
+    </comp>
+    <comp lib="6" loc="(259,118)" name="Text">
+      <a name="text" val="A1 XNOR B1"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(277,558)" name="Text">
+      <a name="text" val="A3 XNOR B3"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(300,60)" name="XNOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(110,510)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="appear" val="right"/>
+    </comp>
+    <comp lib="6" loc="(664,212)" name="Text">
+      <a name="text" val="E3.A2.B2'"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(945,521)" name="Text">
+      <a name="text" val="A&lt;B"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(470,580)" name="NOT Gate"/>
+    <comp lib="6" loc="(86,538)" name="Text">
+      <a name="text" val="B1"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(540,580)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(910,80)" name="AND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="0" loc="(1160,260)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(88,168)" name="Text">
+      <a name="text" val="A1"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(490,470)" name="NOT Gate"/>
+    <comp lib="6" loc="(946,70)" name="Text">
+      <a name="text" val="A=B"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(86,217)" name="Text">
+      <a name="text" val="A3"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(540,240)" name="NOT Gate"/>
+    <comp lib="6" loc="(87,144)" name="Text">
+      <a name="text" val="A0"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(560,450)" name="AND Gate"/>
+    <comp lib="6" loc="(601,987)" name="Text">
+      <a name="text" val="2. Secondly, for 'A&lt;B' we are going in ascending fashion where we are checking from the MSB to LSB "/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 26"/>
+    </comp>
+    <comp lib="1" loc="(480,320)" name="NOT Gate"/>
+    <comp lib="1" loc="(300,330)" name="XNOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(610,293)" name="Text">
+      <a name="text" val="E3.E2.A1.B1'"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(460,150)" name="NOT Gate"/>
+    <comp lib="6" loc="(701,356)" name="Text">
+      <a name="text" val="E3.E2.E1.A0.B0'"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(87,595)" name="Text">
+      <a name="text" val="B3"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="6" loc="(195,844)" name="Text">
+      <a name="text" val="Rules to be followed:"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 36"/>
+    </comp>
+    <comp lib="1" loc="(550,370)" name="NOT Gate"/>
+    <comp lib="1" loc="(610,360)" name="AND Gate"/>
+    <comp lib="6" loc="(86,566)" name="Text">
+      <a name="text" val="B2"/>
+      <a name="font" val="Tw Cen MT Condensed Extra Bold bold 24"/>
+    </comp>
+    <comp lib="1" loc="(610,500)" name="AND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(530,170)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+  </circuit>
+</project>
